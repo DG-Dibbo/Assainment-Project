@@ -117,7 +117,6 @@ section .info p {
     font-weight: 500;
     line-height: 48px;
     text-align: center;
-    /* 127.321% */
 }
 
 .service-text p {
@@ -126,7 +125,6 @@ section .info p {
     text-align: center;
     margin: auto;
     width: 50%;
-    /* 161.074% */
 }
 
 .lmageDetails{
@@ -151,7 +149,6 @@ section .info p {
     font-weight: 500;
     line-height: 24px;
     font-weight: bold;
-    /* 131.148% */
 }
 
 .show-more:hover {
@@ -276,7 +273,6 @@ section .info p {
         font-weight: 500;
         line-height: 48px;
         width: 100%;
-        /* 127.321% */
         margin-top: 10px;
         margin-left: 15px;
     }
