@@ -1,12 +1,9 @@
-/* General Styles */
-/* Global Styles */
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
-/* Navbar Styling */
 .navbar {
     background: white;
     padding: 15px 0;
@@ -81,7 +78,6 @@ body {
     overflow: hidden;
 }
 
-/* Image Transparency Adjust */
 .card-img {
     width: 100%;
     height: 100%;
@@ -89,7 +85,6 @@ body {
     opacity: 0.6;
 }
 
-/* Text Overlay Position */
 .card-img-overlay {
     position: absolute;
     top: 27%;
@@ -98,19 +93,16 @@ body {
     color: white;
 }
 
-/* Title Style */
 .card-title {
     font-size: 24px;
     font-weight: bold;
 }
 
-/* Paragraph Style */
 .card-text {
     font-size: 16px;
     margin-top: 10px;
 }
 
-/* Button Styling */
 .btn {
     background-color: #ff4d4d;
     color: white;
@@ -243,7 +235,6 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 10px;
-    /* 200% */
 }
 
 .contactsite .contact-num h5 {
@@ -276,7 +267,6 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 10px;
-    /* 200% */
 }
 
 .contactsite .message h5 {
@@ -294,7 +284,6 @@ body {
     border-radius: 10px;
     border: 1px solid rgb(174, 164, 164);
     background-color: #2F3747;
-    /* opacity: 0.3; */
     color: white;
 }
 
@@ -310,7 +299,6 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 10px;
-    /* 200% */
 }
 
 .contactsite .location h5 {
@@ -564,14 +552,12 @@ body {
 
     .card {
         width: 90%;
-        /* মোবাইল স্ক্রিনে ভালোভাবে ফিট করানোর জন্য */
         margin: 10px auto;
     }
 
     .card-img {
         object-fit: cover;
         height: 200px;
-        /* ইমেজের উচ্চতা ঠিক রাখতে */
     }
 
     .card-img-overlay {
@@ -580,7 +566,6 @@ body {
         justify-content: center;
         text-align: center;
         background: rgba(0, 0, 0, 0.5);
-        /* ব্যাকগ্রাউন্ড কালার অ্যাড করা */
         color: white;
         padding: 15px;
     }
@@ -670,8 +655,6 @@ body {
     }
     
 }
-
-/* Tablet Responsive (768px - 1024px) */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .hero-section {
         height: 400px;
