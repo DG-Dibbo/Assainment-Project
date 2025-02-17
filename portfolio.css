@@ -1,0 +1,310 @@
+.banner-img {
+    width: 200px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.navBar {
+    display: flex;
+    color: blue;
+    list-style-type: none;
+    margin-top: 40px;
+    justify-content: space-between;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-download {
+    background-color: #5bc0de;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-download:hover {
+    background-color: #31b0d5;
+}
+
+.menuBar {
+    margin-left: 800px;
+}
+
+.name1 {
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+}
+
+.name2 {
+    margin-left: 30px;
+    margin-top: 10px;
+    color: white;
+}
+
+.name3 {
+    margin-left: 20px;
+    color: white;
+}
+
+.name4 {
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 400px;
+    text-align: justify;
+    color: white;
+}
+
+.about-me {
+    margin-left: 200px;
+    width: 75%;
+    margin-top: 20px;
+}
+
+.profile {
+    width: 50%;
+    height: 50%;
+    margin-right: 330px;
+}
+
+.profile-img {
+    width: 400px;
+    height: 530px;
+    margin-left: 380px;
+}
+
+.part1-portfolio {
+    color: rgb(232, 232, 234);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.main-part {
+    align-items: center;
+
+}
+
+.badge {
+    margin-left: 8px;
+    font-size: 20px;
+    gap:3px;
+}
+
+.part-1-container {
+    width: 535px;
+    height: 673px;
+}
+
+.part-2-container {
+    width: 534.38px;
+    height: 168px;
+}
+
+.experience-education {
+    margin-left: 260px;
+    margin-top: 20px;
+}
+
+/* Footer start */
+#contact-us {
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.address-menu {
+    width: 500px;
+    height: 500px;
+    /* background-color: gray; */
+    border: 2px solid gray;
+    box-shadow: 4px 4px 8px green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.email-add {
+    width: 270px;
+}
+
+.textArea {
+    width: 270px;
+    height: 40%;
+}
+
+.copyessue {
+    text-align: center;
+    color: white;
+
+}
+
+.emoji {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.emoji li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.emoji li a {
+    font-size: 24px;
+    color: rgb(122, 5, 5);
+}
+
+.emoji li a:hover {
+    color: chocolate;
+}
+
+/* Tablet View (1023px) */
+@media only screen and (max-width: 1023px) {
+    body {
+        background-color: rgb(21, 9, 14);
+    }
+
+    .about-yourself {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-me {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .profile {
+        display: flex;
+        justify-content: center;
+    }
+
+    .profile-img {
+        width: 300px;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .part1-portfolio {
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .main-part {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 90%;
+        max-height: 100%;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .experience-education {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .part-1-container, .part-2-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .part-2-container {
+        margin-top: 10px;
+    }
+
+    .badge {
+        font-size: 14px;
+        padding: 5px;
+        margin: 3px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        width: 100%;
+    }
+}
+
+/* Mobile View (767px) */
+@media only screen and (max-width: 767px) {
+    .about-yourself {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-img {
+        width: 250px;
+        height: auto;
+        margin-left: 130%;
+    }
+
+    .card {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .tech-stack {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .experience-education {
+        margin-left: 5px;
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .part-1-container, .part-2-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .badge {
+        font-size: 12px;
+        padding: 5px;
+        margin: 3px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .part-1-container {
+        height: auto;
+    }
+
+    p {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    body {
+        background-color: black;
+    }
+
+    .card {
+        max-width: 972px;
+        max-height: 434px;
+        background-color: black;
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,747 @@
+/* General Styles */
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    background: white;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    color: black;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: red;
+}
+
+.ticket-buttom {
+    display: inline-flex;
+    padding: 15px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #FF4240;
+    height: 50px;
+    border-color: #FF4240;
+}
+
+/* hero */
+.hero-section {
+    background: url(images/Rectangle\ 1.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+    flex-shrink: 0;
+}
+
+.details {
+    margin-left: 57%;
+    margin-top: 495px;
+    text-align: justify;
+    background-color: black;
+    color: white;
+    height: 200px;
+    width: 40%;
+    display: inline-flex;
+    padding: 32px;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+
+}
+
+.sentence {
+    width: 30%;
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    font-size: 15px
+}
+
+.card {
+    position: relative;
+    width: 573px;
+    height: 338px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Image Transparency Adjust */
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+/* Text Overlay Position */
+.card-img-overlay {
+    position: absolute;
+    top: 27%;
+    left: 10%;
+    right: 10%;
+    color: white;
+}
+
+/* Title Style */
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Paragraph Style */
+.card-text {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Button Styling */
+.btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #7f1919;
+}
+
+.man-hocky {
+    left: 10.5%;
+    margin-top: 15px;
+    width: 1170px;
+    height: 450px;
+}
+
+.line-mas {
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 200px;
+    background-color: rgb(231, 224, 224);
+}
+
+.product-cart {
+    width: 573px;
+    height: 218px;
+    flex-shrink: 0;
+}
+
+.star {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    background-color: goldenrod;
+}
+
+.card-title {
+    color: #131318;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    font-weight: bold;
+}
+
+.card-text {
+    color: rgba(19, 19, 24, 0.60);
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.card-price {
+    color: #FF4240;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 26px;
+    /* 144.444% */
+}
+
+.shopping-items {
+    margin-left: 153px;
+}
+
+.plus {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.full-part-question {
+    margin-left: 130px;
+    border-radius: 16px;
+    border: 1px solid rgba(19, 19, 24, 0.10);
+}
+
+.question-container {
+    width: 441px;
+    height: 470px;
+    flex-shrink: 0;
+}
+
+.qus-img {
+    margin-top: 7px;
+}
+
+.card-title-icon {
+    display: flex;
+    justify-content: space-between;
+    text-indent: 10px;
+}
+
+.get-in {
+    color: #131318;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.dit-amet {
+    color: rgba(19, 19, 24, 0.60);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+.contactsite{
+    display: flex;
+}
+.contactsite .contact-num p {
+    color: white;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    /* 200% */
+}
+
+.contactsite .contact-num h5 {
+    color: white;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 5px;
+}
+
+.contactsite .contact-num {
+    width: 374px;
+    height: 216px;
+    border-radius: 10px;
+    border: 1px solid rgb(174, 164, 164);
+    background-color: #2db8ac;
+    color: rgb(53, 53, 218);
+}
+
+.contactsite .contact-num .contact-num-into {
+    padding: 20px;
+    margin: 20px;
+}
+
+.contactsite .message p {
+    color: white;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    /* 200% */
+}
+
+.contactsite .message h5 {
+    color: white;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 5px;
+}
+
+.contactsite .message {
+    width: 374px;
+    height: 216px;
+    border-radius: 10px;
+    border: 1px solid rgb(174, 164, 164);
+    background-color: #2F3747;
+    /* opacity: 0.3; */
+    color: white;
+}
+
+.contactsite .message .contact-num-into {
+    padding: 20px;
+    margin: 20px;
+}
+
+.contactsite .location p {
+    color: white;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    /* 200% */
+}
+
+.contactsite .location h5 {
+    color: white;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 5px;
+}
+
+.contactsite .location {
+    width: 374px;
+    height: 216px;
+    border-radius: 10px;
+    border: 1px solid rgb(174, 164, 164);
+    background-color: #58A65C;
+    color: #F1BF42;
+}
+
+.contactsite .location .contact-num-into {
+    padding: 20px;
+    margin: 20px;
+}
+
+.contact-message-location {
+    width: 474px;
+    height: 764px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(19, 19, 24, 0.10);
+    padding: 50px;
+
+}
+
+.contactsite {
+    margin: 150px;
+}
+
+.identity {
+    margin-left: 100px;
+}
+
+.btn {
+
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.danger {
+    border-color: #f44336;
+    color: red
+}
+
+.danger:hover {
+    background: #f44336;
+    color: white;
+}
+
+.Social-media {
+    color: #131318;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.icon-brand {
+
+    height: 24px;
+
+}
+
+.footer {
+    background-color: #181419;
+    color: #ccc;
+}
+
+.footer-title {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer p,
+.footer ul li a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer ul li a:hover {
+    color: white;
+}
+
+.footer i {
+    margin-right: 8px;
+}
+
+.Professional-hockeys {
+    text-align: center;
+}
+
+.parcentage-all {
+    display: flex;
+    justify-content: space-around;
+}
+
+.percentage1 {
+    height: 400px;
+    width: 300px;
+    text-align: center;
+}
+
+.parcentage,
+.parcentage11,
+.parcentage12,
+.parcentage13 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: conic-gradient(blue 0% 50%, lightgray 50% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.parcentage11 {
+    background: conic-gradient(red 0% 75%, lightgray 75% 100%);
+}
+
+.parcentage12 {
+    background: conic-gradient(greenyellow 0% 25%, lightgray 25% 100%);
+}
+
+.parcentage13 {
+    background: conic-gradient(yellow 0% 100%, lightgray 100% 100%);
+}
+
+.parcentage h5,
+.parcentage11 h5,
+.parcentage12 h5,
+.parcentage13 h5 {
+    position: absolute;
+    margin: 0;
+}
+
+.plus-minus {
+    padding-left: 200px;
+}
+
+.cart-1-2 {
+    display: flex;
+    gap: 8px;
+}
+@media screen and (max-width: 767px) {
+    .hero-section {
+        background: url(images/Rectangle\ 1.png);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: auto;
+        flex-shrink: 0;
+    }
+
+    .details {
+        margin: 20px auto;
+        text-align: justify;
+        background-color: black;
+        color: white;
+        height: auto;
+        width: 80%;
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 20px;
+    }
+
+    .sentence {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .parcentage-all {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .percentage1 {
+        width: 90%;
+        text-align: center;
+    }
+
+    .parcentage,
+    .parcentage11,
+    .parcentage12,
+    .parcentage13 {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .parcentage {
+        background-color: blue;
+    }
+
+    .parcentage11 {
+        background-color: red;
+    }
+
+    .parcentage12 {
+        background-color: green;
+    }
+
+    .parcentage13 {
+        background-color: orange;
+    }
+
+    .program-sections {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .card {
+        width: 90%;
+        /* মোবাইল স্ক্রিনে ভালোভাবে ফিট করানোর জন্য */
+        margin: 10px auto;
+    }
+
+    .card-img {
+        object-fit: cover;
+        height: 200px;
+        /* ইমেজের উচ্চতা ঠিক রাখতে */
+    }
+
+    .card-img-overlay {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+        /* ব্যাকগ্রাউন্ড কালার অ্যাড করা */
+        color: white;
+        padding: 15px;
+    }
+
+    .btn {
+        background-color: #ff5733;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        font-size: 14px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: #e74c3c;
+    }
+
+    .cart-1-2 {
+        width: 100%;
+        height: auto;
+        padding: auto;
+        text-align: center;
+        flex-direction: column
+    }
+
+    .product-cart {
+        width: 100%;
+        height: auto;
+        flex-shrink: 0;
+    }
+
+    .shopping-items {
+        margin-left: 50px;
+    }
+
+    .cart-3-4 {
+        width: 100%;
+        height: auto;
+        padding: auto;
+        text-align: center;
+        flex-direction: column
+    }
+
+    .product-cart {
+        width: 100%;
+        height: auto;
+        flex-shrink: 0;
+    }
+
+    .cart-5-6 {
+        width: 100%;
+        height: auto;
+        padding: auto;
+        text-align: center;
+        flex-direction: column
+    }
+
+    .product-cart {
+        width: 100%;
+        height: auto;
+        flex-shrink: 0;
+    }
+
+    .full-part-question {
+        margin:0px;
+        padding: 0px;
+        border-radius: 16px;
+        border: 1px solid rgba(19, 19, 24, 0.10);
+    }
+    .plus-minus {
+        padding: 0px;
+        margin-top: 5px;
+    }
+    .qus-logo {
+        width: 100%;
+        height: auto;
+    }
+
+    .contactsite{
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    }
+    .identity {
+        margin:0px;
+    }
+    
+}
+
+/* Tablet Responsive (768px - 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .hero-section {
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .details {
+        width: 75%;
+        padding: 20px;
+        gap: 15px;
+        font-size: 18px;
+    }
+
+    .sentence {
+        font-size: 16px;
+    }
+
+    .parcentage-all {
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .parcentage,
+    .parcentage11,
+    .parcentage12,
+    .parcentage13 {
+        width: 90px;
+        height: 90px;
+        font-size: 18px;
+    }
+
+    .program-sections {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card {
+        width: 48%;
+        margin: 15px;
+    }
+
+    .cart-1-2, .cart-3-4, .cart-5-6 {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .product-cart {
+        width: 48%;
+    }
+
+    .full-part-question {
+        width: 85%;
+        margin: auto;
+    }
+
+    .contactsite {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .get-in-touch {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
+
